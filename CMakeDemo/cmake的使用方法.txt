@@ -1,0 +1,62 @@
+windows下使用cmake——HelloWorld? 教程
+
+step0:新建一个用来存放工程文件的文件夹
+
+?
+
+step1:用记事本或者写字板写一个“HelloWorld.cpp”,放在step0新建的文件夹下。具体内容为：
+
+#include <iostream>
+
+?
+
+using namespace std;
+
+?
+
+int main() {
+
+? cout<<"HelloWorld"<<endl;
+
+? system("pause");
+
+? return 0;
+
+}
+
+?
+
+step2: 在cpp文件相同的目录下（项目cpp源文件根目录——step0新建的文件夹下）建立一个CMakeLists.txt文件
+
+具体内容为：
+
+cmake_minimum_required (VERSION 2.6)
+
+project (HelloWorld)
+
+add_executable (HelloWorld HelloWorld.cpp)
+
+?
+
+step3：win+r 打开命令行窗口，输入cd +step0文件夹的路径。
+
+解释：cd的意思是change dictionary。
+
+?
+
+step4：运行cmake。具体操作为：
+
+回车+“cmake .”（备注：cmake空格点）
+
+正常情况下命令行输出：
+
+并在step0新建的文件夹下生成以下文件：
+
+?
+
+step5：用vs打开sln文件，编译、运行、调试即可。
+
+具体操作为：右键HelloWorld，选择“生成”。
+————————————————
+版权声明：本文为CSDN博主「liyuebit」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/liyuebit/article/details/77092723
