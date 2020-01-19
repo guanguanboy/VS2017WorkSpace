@@ -189,7 +189,7 @@ int main(int argc, const char *argv[]) {
 	//object_points是对应角点的三维坐标
 	//image_size，包含棋盘格的图片的原始分辨率
 	//intrinsic_matrix，标定好的内存矩阵
-	//distortion_coeffs，标定好的外参矩阵
+	//distortion_coeffs，标定好的畸变参数
 	double err = cv::calibrateCamera(
 		object_points, image_points, image_size, intrinsic_matrix,
 		distortion_coeffs, cv::noArray(), cv::noArray(),
