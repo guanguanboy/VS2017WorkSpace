@@ -160,8 +160,10 @@ int main(int argc, const char *argv[]) {
 			object_points.push_back(vector<cv::Point3f>());
 			vector<cv::Point3f> &opts = object_points.back();
 
-			opts.resize(board_n);
+			opts.resize(board_n); //这里的board_n是角点个数
+			//board_w是棋盘上每一行有多少个角点
 			for (int j = 0; j < board_n; j++) {
+				//以行优先的方式将棋盘上角点的世界坐标放在opts数组中
 				opts[j] = cv::Point3f(static_cast<float>(j / board_w),
 					static_cast<float>(j % board_w), 0.0f);
 			}

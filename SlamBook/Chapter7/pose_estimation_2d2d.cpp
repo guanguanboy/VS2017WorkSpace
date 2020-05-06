@@ -26,16 +26,17 @@ void pose_estimation_2d2d(
 // 像素坐标转相机归一化坐标
 Point2d pixel2cam(const Point2d& p, const Mat& K);
 
+#if 1
 int main(int argc, char** argv)
 {
-	if (argc != 3)
-	{
-		cout << "usage: pose_estimation_2d2d img1 img2" << endl;
-		return 1;
-	}
+	//if (argc != 3)
+	//{
+	//	cout << "usage: pose_estimation_2d2d img1 img2" << endl;
+	//	return 1;
+	//}
 	//-- 读取图像
-	Mat img_1 = imread(argv[1], CV_LOAD_IMAGE_COLOR);
-	Mat img_2 = imread(argv[2], CV_LOAD_IMAGE_COLOR);
+	Mat img_1 = imread("1.png", CV_LOAD_IMAGE_COLOR);
+	Mat img_2 = imread("2.png", CV_LOAD_IMAGE_COLOR);
 
 	vector<KeyPoint> keypoints_1, keypoints_2;
 	vector<DMatch> matches;
@@ -70,6 +71,8 @@ int main(int argc, char** argv)
 
 	return 0;
 }
+
+#endif
 
 void find_feature_matches(const Mat& img_1, const Mat& img_2,
 	std::vector<KeyPoint>& keypoints_1,
