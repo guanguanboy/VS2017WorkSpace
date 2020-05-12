@@ -19,6 +19,8 @@ struct Options {
 	bool use_metadata;
 	std::string input;
 	std::string output;
+	
+	
 };
 
 Options::Options()
