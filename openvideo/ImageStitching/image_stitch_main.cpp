@@ -34,6 +34,7 @@ void ImageStitching(vector<Mat> imageVector, Mat &outputImage, int rowImageCount
 	vconcat(hImageVec, outputImage);
 }
 
+#if 0
 int main()
 {
 	Mat img1, img2, img3, img4, img5, img0;
@@ -72,3 +73,7 @@ int main()
 
 	return 0;
 }
+
+#endif
+
+
