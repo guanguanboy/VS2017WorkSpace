@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "capturevideo", "capturevide
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "saveVideo", "saveVideo\saveVideo.vcxproj", "{3F7A9449-826E-4190-9F2A-DC5A20720A23}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageStitching", "ImageStitching\ImageStitching.vcxproj", "{A051B9DD-EA86-46B9-8DEB-015AD465E2C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{3F7A9449-826E-4190-9F2A-DC5A20720A23}.Release|x64.Build.0 = Release|x64
 		{3F7A9449-826E-4190-9F2A-DC5A20720A23}.Release|x86.ActiveCfg = Release|Win32
 		{3F7A9449-826E-4190-9F2A-DC5A20720A23}.Release|x86.Build.0 = Release|Win32
+		{A051B9DD-EA86-46B9-8DEB-015AD465E2C8}.Debug|x64.ActiveCfg = Debug|x64
+		{A051B9DD-EA86-46B9-8DEB-015AD465E2C8}.Debug|x64.Build.0 = Debug|x64
+		{A051B9DD-EA86-46B9-8DEB-015AD465E2C8}.Debug|x86.ActiveCfg = Debug|Win32
+		{A051B9DD-EA86-46B9-8DEB-015AD465E2C8}.Debug|x86.Build.0 = Debug|Win32
+		{A051B9DD-EA86-46B9-8DEB-015AD465E2C8}.Release|x64.ActiveCfg = Release|x64
+		{A051B9DD-EA86-46B9-8DEB-015AD465E2C8}.Release|x64.Build.0 = Release|x64
+		{A051B9DD-EA86-46B9-8DEB-015AD465E2C8}.Release|x86.ActiveCfg = Release|Win32
+		{A051B9DD-EA86-46B9-8DEB-015AD465E2C8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

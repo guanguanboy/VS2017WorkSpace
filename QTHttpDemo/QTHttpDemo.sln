@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QTHttpDemo", "QTHttpDemo\QT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QTHttpDownloadDemo", "QTHttpDownloadDemo\QTHttpDownloadDemo.vcxproj", "{6A125280-544A-4AD6-9DCC-2B6DF22AAD4A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtHttpTokenDemo", "QtHttpTokenDemo\QtHttpTokenDemo.vcxproj", "{EF31F218-9C9E-4981-8578-2D1A681074DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5HttpDemo", "Qt5HttpDemo\Qt5HttpDemo.vcxproj", "{EF48CAA4-6C6F-4D10-B8BC-965C19A5E679}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,14 @@ Global
 		{6A125280-544A-4AD6-9DCC-2B6DF22AAD4A}.Debug|x64.Build.0 = Debug|x64
 		{6A125280-544A-4AD6-9DCC-2B6DF22AAD4A}.Release|x64.ActiveCfg = Release|x64
 		{6A125280-544A-4AD6-9DCC-2B6DF22AAD4A}.Release|x64.Build.0 = Release|x64
+		{EF31F218-9C9E-4981-8578-2D1A681074DC}.Debug|x64.ActiveCfg = Debug|x64
+		{EF31F218-9C9E-4981-8578-2D1A681074DC}.Debug|x64.Build.0 = Debug|x64
+		{EF31F218-9C9E-4981-8578-2D1A681074DC}.Release|x64.ActiveCfg = Release|x64
+		{EF31F218-9C9E-4981-8578-2D1A681074DC}.Release|x64.Build.0 = Release|x64
+		{EF48CAA4-6C6F-4D10-B8BC-965C19A5E679}.Debug|x64.ActiveCfg = Debug|x64
+		{EF48CAA4-6C6F-4D10-B8BC-965C19A5E679}.Debug|x64.Build.0 = Debug|x64
+		{EF48CAA4-6C6F-4D10-B8BC-965C19A5E679}.Release|x64.ActiveCfg = Release|x64
+		{EF48CAA4-6C6F-4D10-B8BC-965C19A5E679}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
