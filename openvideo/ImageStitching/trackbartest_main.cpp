@@ -26,7 +26,7 @@ Mat g_dstImage;
 void on_Trackbar(int, void*)
 {
 	//求出当前alpha值相对于最大值的比例
-	g_dAlphaValue = (double)(g_nAlphaValueSlider / g_nMaxAlphaValue);
+	g_dAlphaValue = ((double)g_nAlphaValueSlider) / g_nMaxAlphaValue;
 
 	g_dBetaValue = 1.0 - g_dAlphaValue;
 
@@ -62,7 +62,7 @@ int main(int argc, char** argv)
 
 	//在创建的窗体中新建一个滑动条
 	char TrackbarName[50];
-	sprintf(TrackbarName, "alpha value = %d", g_nMaxAlphaValue);
+	sprintf(TrackbarName, "al=%d", g_nMaxAlphaValue);
 
 	createTrackbar(TrackbarName, WINDOW_NAME, &g_nAlphaValueSlider, g_nMaxAlphaValue, on_Trackbar);
 
