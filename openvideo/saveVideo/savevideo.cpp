@@ -19,8 +19,6 @@ int main(int argc, char* argv[])
 		return 0;
 	}
 
-	//double fps = capture.get(CAP_PROP_FPS);
-
 	Size size((int)capture.get(CAP_PROP_FRAME_WIDTH), (int)capture.get(CAP_PROP_FRAME_HEIGHT));
 
 	VideoWriter writer;

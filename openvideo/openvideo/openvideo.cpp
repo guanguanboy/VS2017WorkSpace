@@ -99,13 +99,13 @@ void threadfun1()
 	g_cap1.release();
 }
 
-#if 0
+#if 1
 int main(int argc, char** argv)
 {
 	namedWindow("OpenvideoDemo", WINDOW_AUTOSIZE);
 	VideoCapture cap;
 	//string videoName = string("../saveVideo/my_video.avi");
-	cap.open("../saveVideo/depth.avi");
+	cap.open("../saveVideo/my_video.avi");
 	Mat frame;
 
 	int fps = cap.get(CV_CAP_PROP_FPS);
@@ -162,7 +162,7 @@ int main()
 
 #endif
 
-#if 1
+#if 0
 
 #include "opencv2/core/core.hpp"
 #include "opencv2/highgui/highgui.hpp"
